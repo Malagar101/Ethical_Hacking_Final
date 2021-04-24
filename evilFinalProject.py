@@ -33,4 +33,12 @@ labelRouterIP.grid(column=0,row=3)
 #Text Input for router IP
 textRouterIP = Entry(window,width=20)
 textRouterIP.grid(column=1,row=3)
+
+#Button for handling execute call
+buttonHack = Button(window,text="Hack!",command="confirm")
+buttonHack.grid(column=0, rows=4)
+
+#Button for closing the application
+buttonClose= Button(window,text="Quit",command="close")
+buttonClose.grid(column=1,row=4)
 window.mainloop()#keeps window open
