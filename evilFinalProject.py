@@ -1,6 +1,31 @@
-import os, configparser
+import os, configparser, sys, time
 from tkinter import *
+from scapy.all import *
 #Ethical Hacking Python Application
+
+#function declarations
+
+
+
+
+#MitM Section
+
+
+
+
+
+
+
+
+#Packet Sniff
+
+
+
+
+
+#if packet is successful, get hash as a string and compare it to dictionary
+
+
 
 #GUI Rigging
 window =Tk() #create tkinter GUI object
