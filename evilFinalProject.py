@@ -3,6 +3,9 @@ from tkinter import *
 from scapy.all import *
 #Ethical Hacking Python Application
 
+#variable declations
+
+
 #function declarations
 
 
