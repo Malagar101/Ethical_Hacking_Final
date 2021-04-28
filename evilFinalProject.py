@@ -26,8 +26,18 @@ import hashlib
 
 #if packet is successful, get hash as a string and compare it to dictionary
 
+#create hashes for most common passwords
 #dictionary files
-english_password_list = 
+english_password_list = "10k_most_common.txt" #input file name
+hashed_words_file = "10k_most_common_hashed.txt" #output file name
+#hash type
+hash_type="md5"
+
+#crack hashed passwords from packet and compare it to the most common passwords
+
+
+
+
 
 #GUI Rigging
 window =Tk() #create tkinter GUI object
