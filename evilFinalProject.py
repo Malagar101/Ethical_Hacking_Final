@@ -1,6 +1,7 @@
 import os, configparser, sys, time
 from tkinter import *
-from scapy.all import *
+import hashlib
+# from scapy.all import *
 #Ethical Hacking Python Application
 
 #function declarations
@@ -25,7 +26,8 @@ from scapy.all import *
 
 #if packet is successful, get hash as a string and compare it to dictionary
 
-
+#dictionary files
+english_password_list = 
 
 #GUI Rigging
 window =Tk() #create tkinter GUI object
